@@ -1,0 +1,59 @@
+    /* NAVBAR*/
+
+
+    .navBar {
+
+        width: 100%;
+        height: 100px;
+        -webkit-box-shadow: -1px 11px 15px 5px rgba(130, 56, 255, 0.56);
+        box-shadow: -1px 11px 15px 5px rgba(130, 56, 255, 0.56);
+        margin: 0px;
+        background-color: $c1;
+
+
+        nav {
+            height: 50px;
+
+
+            .ul__menu {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                position: relative;
+
+
+
+            }
+
+            hr {
+                display: none;
+            }
+
+            .li-desp {
+                list-style: none;
+                color: $c1;
+
+                &:hover {
+                    border-bottom: solid 2px;
+                    border-color: $c2;
+                    transition: 1s linear;
+                }
+
+
+                a {
+                    display: flex;
+                    justify-content: center;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 20px;
+
+
+
+
+
+
+                }
+            }
+        }
+    }

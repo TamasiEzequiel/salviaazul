@@ -1,0 +1,16 @@
+.containerProductos{
+ 
+    height: max-content;
+}
+
+.ListadoProd{
+    display: flex;
+    height: 1500px;
+    max-height: 1000px;
+    margin-top: 75px;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-left: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
