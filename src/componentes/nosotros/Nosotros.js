@@ -4,12 +4,11 @@ export const Nosotros = () => {
 
     return (
 
-        <div>
+        <div className="nosotros">
             <h1>Sobre Nosotros</h1>
 
-            <div className="nosotros">
-              
-
+            <div className="nosTittle">
+              <p>SOMOS Nosotros</p>
             </div>
 
             <div className="ubicacion">

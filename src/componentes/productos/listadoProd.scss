@@ -1,0 +1,14 @@
+.listadoProd{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    height: max-content;
+    max-width: 100%;
+    justify-content:space-evenly;
+    border: solid color green;
+    padding: 50px;
+    border-top: solid 0.5px;
+    border-bottom: solid 0.5px;
+    border-color: chartreuse;
+}
+

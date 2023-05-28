@@ -1,17 +1,34 @@
-.loader-section{
+.loaderContainer{
+    width: 100%;
+    height: 1000px;
+   
+}
 
+
+.loader-section{
     width: 100vw;
     height: 100vh;
     max-width: 100%;
     position: fixed;
     top: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ffffff00;
     z-index: 999;
     transition: all 1s 1s ease-out;
     opacity: 1;
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        font-family: 'augustus';
+
+
+    }
 }
 
 .loaded{

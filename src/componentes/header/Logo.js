@@ -7,8 +7,9 @@ export const Logo = () => {
         <div className="logo" >
 
             <Link to='/'>
-
-                <img className="imgLogo" src="\img\Jabon.jpg" />
+               
+                <img className="imgLogo" src="..\img\logoconfondo.png" />
+                
             </Link>
 
         </div>

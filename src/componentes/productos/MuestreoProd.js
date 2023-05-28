@@ -15,8 +15,6 @@ export const MuestreoProductos = () => {
     const { catId } = useParams()
 
     
-
-
     useEffect(() => {
 
         setLoading(true)
@@ -41,8 +39,6 @@ export const MuestreoProductos = () => {
     return (
 
         <>
-
-
             {
 
 

@@ -1,5 +1,5 @@
 import { MuestreoProductos } from "./MuestreoProd"
-import { NavProd } from "./NavProd"
+
 
 
 export const Productos = () => {
@@ -7,7 +7,7 @@ export const Productos = () => {
     return (
 
         <div className="containerProductos">
-            <NavProd/>
+            
             <MuestreoProductos/>
          
         </div>

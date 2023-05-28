@@ -6,27 +6,27 @@ export const Nav = () => {
     return (
 
         <div>
-            
-            <div className="navBar">
-                <nav>
-                    <ul className="ul__menu">
-                        <li className="li-desp"> <Link to='/'>Inicio</Link><hr></hr></li>
-                        <li className="li-desp"> <Link to='/productos'>Productos</Link></li>
-                        <Logo />
-                        <li className="li-desp" ><Link to='/nosotros'>Nosotros</Link></li>
-                        <li className="li-desp" ><Link to='/contacto'>Contacto</Link></li>
-                    </ul>
+            <Logo />
 
-                </nav>
-            </div>
+            <nav className="navBar">
+                <ul className="ul__menu">
+                    <li className="li-desp"> <Link to='/'>INICIO</Link><hr></hr></li>
+                    <li className="li-desp" ><Link to='/productos'>PRODUCTOS</Link>
+                        <ul className="nav-desp">
+                            <li><Link to='/productos/jabones'> JABONES </Link></li>
+                            <li><Link to='/productos/perfumes'>PERFUMES </Link></li>
+                            <li><Link to='/productos/velas'>VELAS</Link></li>
+                        </ul>
+                    </li>
+                    <li className="li-desp" ><Link to='/contacto'>CONTACTO</Link></li>
+                </ul>
+
+            </nav>
+
         </div>
     )
 
     /* COLOCAR LOS SIGUIENTES COMPONENTES
-    
-    - LOGO
-    - LISTA
-    - REDES??
-        
+                            <li className="li-desp"> <Link to='/productos'>Productos</Link></li>        
     */
 }

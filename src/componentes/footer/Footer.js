@@ -1,6 +1,7 @@
-import { Logo } from "../header/Logo"
+
 import { Redes } from "../redes/Redes"
 import { Sitemap } from "../sitemap/Sitemap"
+import { LogoFoo } from "./LogoFoo"
 
 export const Footer = () => {
 
@@ -8,7 +9,7 @@ export const Footer = () => {
     return (
 
         <div className="divFooter"> 
-            <Logo/>
+            <LogoFoo/>
             <Redes/>
             <Sitemap/>
         </div>

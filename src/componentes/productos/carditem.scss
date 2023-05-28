@@ -1,45 +1,72 @@
-.CardItem{
- 
+
+
+.CardItem {
+
     justify-content: center;
     flex-direction: row;
     flex-flow: column wrap;
     height: max-content auto;
     width: 300px;
     border-radius: 50px;
-    border: solid 1.5px;
-    border-color: $c1;
-    background-color:rgba(169, 169, 169, 0.137);
+    margin-right: 20px;
+    margin-bottom: 50px;
 
-    img{
-        width: 100%;
-        height: 250px;
-        border-top-right-radius: 49px;
-        border-top-left-radius: 49px;
-    }
 
-    #cardTitle{
-        display: flex;
+
+
+    img {
         width: 100%;
-        justify-content: center;
-    }
-    
-    p{
-        display: flex;
-        width: 100%;
-        justify-content: center;
+        height: 200px;
+        border-radius: 10px;
+        /*
+        -webkit-box-shadow: 3px 0px 24px 5px rgba(0, 0, 0, 0.73);
+        box-shadow: 3px 0px 24px 5px rgba(0, 0, 0, 0.73);*/
+
     }
 
-    .btn-whatsapp{
+    #cardTitle {
         display: flex;
-        width: 80%;
-        height: 25px;
-        margin-left: 10%;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: $c2;
-        border-radius: 50px;
-        border: none;
+        width: 100%;
+        justify-content: flex-start;
+        margin-left: 55px;
+        margin-top: 10px;
+        font-family: 'augustus';
+        font-weight: 400;
     }
+
+    p {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        margin-left: 55px;  
+        margin-top: 10px;
+        font-family: 'augustus';
+
+    }
+
+    a {
+
+        text-decoration: none;
+        .btn-vermas {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background-color: rgba(128, 255, 0, 0.295);
+            border: none;
+            border-radius: 5px;
+            margin-left: 25px;
+            color: rgb(5, 110, 14);
+            font-size: 1rem;
+            font-family: 'augustus';
+            
+            &:hover{
+                display: block;
+                background-color: rgba(128, 255, 0, 0.158); 
+               
+           
+            }
+        }
+    }
+
 
 }

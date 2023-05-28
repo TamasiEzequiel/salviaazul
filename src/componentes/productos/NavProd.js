@@ -12,10 +12,8 @@ export const NavProd = () => {
                     <li><Link to='/productos/jabones'>Jabones </Link></li>
                     <li><Link to='/productos/perfumes'>Perfumes </Link></li>
                     <li><Link to='/productos/velas'>Velas</Link></li>
+                    
                 </ul>
-
-
-
             </div>
         </div>
     )
