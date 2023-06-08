@@ -11,7 +11,7 @@ export const Nav = () => {
             <nav className="navBar">
                 <ul className="ul__menu">
                     <li className="li-desp"> <Link to='/'>INICIO</Link><hr></hr></li>
-                    <li className="li-desp" ><Link to='/productos'>PRODUCTOS</Link>
+                    <li className="li-desp" ><Link to='/productos'>PRODUCTOS</Link> <img src="img\angle-small-down.svg"></img>
                         <ul className="nav-desp">
                             <li><Link to='/productos/jabones'> JABONES </Link></li>
                             <li><Link to='/productos/perfumes'>PERFUMES </Link></li>
@@ -21,6 +21,8 @@ export const Nav = () => {
                     <li className="li-desp" ><Link to='/contacto'>CONTACTO</Link></li>
                 </ul>
 
+
+               
             </nav>
 
         </div>

@@ -4,7 +4,7 @@ export const ViewItem = ({  nombre, img, descrip }) => {
 
     const handleWsp = () => {
 
-        window.open('https:wa.me/1168501644?text=Hola!%20Quiero%20comunicarme%20con%20ustedes', '_blank')
+        window.open('https://api.whatsapp.com/send/?phone=1568501644&text=Hola%21+Quiero+comunicarme+con+ustedes&type=phone_number&app_absent=0', '_blank')
     }
 
     return (

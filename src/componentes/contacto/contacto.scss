@@ -1,0 +1,95 @@
+.containerContacto{
+
+    display: flex;
+    margin-top: 105px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+
+    .imgContacto{
+        
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 1200px){
+
+    .imgContacto{
+        width: 800px;
+        height: 800px;
+        border-radius: 50px;
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    .imgContacto{
+        width: 750px;
+        height: 750px;
+        border-radius: 50px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .imgContacto{
+        width: 650px;
+        height: 650px;
+        border-radius: 50px;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .imgContacto{
+        width: 500px;
+        height: 500px;
+        border-radius: 50px;
+    }
+
+}
+
+
+@media (max-width: 550px){
+
+    .imgContacto{
+        width: 450px;
+        height: 450px;
+        border-radius: 50px;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    .imgContacto{
+        width: 350px;
+        height: 450px;
+        border-radius: 50px;
+    }
+
+}
+
+@media (max-width: 400px){
+
+    .imgContacto{
+        width: 330px;
+        height: 450px;
+        border-radius: 2px;
+    }
+
+}
+
+@media (max-width: 300px){
+
+    .imgContacto{
+        width: 330px;
+        height: 450px;
+        border-radius: 0px;
+    }
+
+}

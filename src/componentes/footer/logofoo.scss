@@ -10,3 +10,36 @@
     border-radius: 100px;
 }
 
+
+@media (max-width: 650px){
+
+    .imgLogoFoo{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+    }
+    .logoFoo {
+        display: flex;
+        align-items: center;
+        
+    
+    }
+}
+
+@media (max-width: 400px){
+
+    .imgLogoFoo{
+        height: 90px;
+        width: 90px;
+        
+    }
+}
+
+@media (max-width: 300px){
+
+    .imgLogoFoo{
+        height: 50px;
+        width: 50px;
+        
+    }
+}

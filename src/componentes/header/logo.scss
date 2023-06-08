@@ -7,13 +7,17 @@
     -webkit-box-shadow: -1px 11px 15px 5px rgba(130, 56, 255, 0.56);
     box-shadow: -1px 11px 15px 5px rgba(130, 56, 255, 0.56);
     
+    
 }
 
 
 .imgLogo {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
+    background-color: white;
+    border: solid 0.2px;
+    border-color: rgb(0, 0, 0);
     
     
     &:hover {

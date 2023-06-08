@@ -58,3 +58,23 @@
         }
     }
 }
+
+
+
+@media (max-width: 650px) {
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        h3 {
+            display: none;
+        }
+
+    }
+
+
+
+
+}

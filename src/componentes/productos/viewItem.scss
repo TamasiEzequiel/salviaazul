@@ -32,7 +32,6 @@
         display: flex;
         width: 80%;
         flex-flow: row wrap;
-        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         margin-left: 100px;
@@ -55,7 +54,6 @@
         p {
             display: flex;
             text-align: justify;
-            height: 400px;
             width: 100%;
             width: fit-content;
             font-size: 1.25rem;
@@ -72,17 +70,117 @@
             border: none;
             border-radius: 5px;
             margin-left: 25px;
+            margin-top: 50px;
             color: rgb(5, 110, 14);
             font-size: 1rem;
             font-family: 'augustus';
-            
-            &:hover{
+
+            &:hover {
                 display: block;
-                background-color: rgba(128, 255, 0, 0.158); }
-               
+                background-color: rgba(128, 255, 0, 0.158);
+            }
+
 
 
         }
     }
 
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .containerView {
+        display: flex;
+        width: 100%;
+        border-top: 1px solid;
+        border-color: chartreuse;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+
+
+        .tittleImage img {
+            
+            margin-left: 0px;
+        }
+
+        .description {
+            display: flex;
+            width: 80%;
+            flex-flow: row wrap;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    }
+}
+/*
+@media (max-width: 768px) {
+    .containerView {
+        display: flex;
+        width: 100%;
+        border-top: 1px solid;
+        border-color: chartreuse;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+
+
+        .tittleImage img {
+            
+            margin-left: 0px;
+        }
+
+        .description {
+            display: flex;
+            width: 80%;
+            flex-flow: row wrap;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    }
+}*/
+
+
+
+@media (max-width: 500px) {
+    .containerView {
+       
+        .tittleImage img {
+            width: 350px;
+        }
+
+    }
+}
+
+@media (max-width: 400px) {
+    .containerView {
+       
+        .tittleImage img {
+            width: 300px;
+        }
+
+    }
+}
+
+@media (max-width: 350px) {
+    .containerView {
+       
+        .tittleImage img {
+            width: 250px;
+            height: fit-content;
+        }
+
+    }
 }

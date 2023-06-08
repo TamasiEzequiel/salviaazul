@@ -1,5 +1,5 @@
-import { Nav } from "./Nav"
 
+import NavBar from "./NavBar"
 
 export const Header = () => {
 
@@ -18,7 +18,7 @@ export const Header = () => {
     return (
 
         <>
-            <Nav />
+            <NavBar/>
         </>
 
 

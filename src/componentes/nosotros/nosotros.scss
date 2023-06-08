@@ -1,15 +1,189 @@
 .nosotros {
     width: 100%;
-    height: 700px;
+    max-height: auto;
 
-    .nosTittle{
+    h1 {
         display: flex;
         width: 100%;
         justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-family: 'augustus';
+    }
+
+    p {
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-top: 100px;
+        font-size: 1.75rem;
+        font-family: 'cherry';
+        text-align: justify;
+        margin-bottom: 150px;
+    }
+
+    .nosTittle {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-size: 2rem;
         font-family: 'augustus';
 
+        h2 {
+            font-size: 2rem;
+        }
+
+
+        p {
+            padding-right: 100px;
+            padding-left: 100px;
+            margin-top: 100px;
+            font-size: 1.75rem;
+            font-family: 'cherry';
+            text-align: justify;
+        }
     }
 
+    .ubicacion {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        height: 600px;
+
+
+        h3 {
+            display: flex;
+            width: 100%;
+            font-size: 2rem;
+            justify-content: center;
+            font-family: 'augustus';
+        }
+
+        .containerMapa {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+
+
+            .mapa {
+
+                height: 400px;
+                border: none;
+                border-radius: 20px;
+                -webkit-box-shadow: 0px 2px 15px 5px rgba(0, 0, 0, 0.24);
+                box-shadow: 0px 2px 15px 5px rgba(0, 0, 0, 0.24);
+                margin-right: 50px;
+            }
+
+            p {
+                font-size: 2rem;
+                letter-spacing: 0.5rem;
+                width: 50%;
+                font-family: 'cherry';
+                margin-top: 0px;
+                padding-right: 0px;
+                padding-left: 50px;
+                text-align: left;
+            }
+        }
+
+    }
+
+
+}
+
+@media (max-width: 800px) {
+
+
+    .nosotros {
+        .ubicacion {
+            .containerMapa {
+                .mapa {
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 0px;
+                    height: 800px auto;
+                }
+
+
+                p {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@media (max-width: 700px) {
+
+    .ubicacion {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 600px) {
+
+    .nosotros {
+        width: 100%;
+        max-height: auto;
+
+        p {
+            padding-right: 25px;
+            padding-left: 25px;
+
+            font-size: 1.5rem;
+
+        }
+
+
+
+        .nosTittle {
+
+            p {
+                padding-right: 25px;
+                padding-left: 25px;
+                font-size: 1.5rem;
+
+            }
+        }
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .nosotros {
+
+        .ubicacion {
+
+            .containerMapa {
+                .mapa {
+                    width: 99%;
+                    height: 800px auto;
+                }
+            }
+
+            h3 {
+                text-align: center;
+            }
+        }
+
+        .nosTittle {
+            h2 {
+
+                text-align: center;
+                font-size: 2rem;
+            }
+        }
+    }
 
 }

@@ -13,3 +13,27 @@
 
 
 }
+
+@media (max-width: 900px){
+
+    .home{
+        
+        margin-right: 0%;
+    }
+}
+
+@media (max-width: 500px){
+
+    .home{
+        
+        margin-right: 0%;
+    }
+
+    .imgHome {
+
+        width: 95%;
+        height: 200px;
+
+    }
+}
+

@@ -1,6 +1,6 @@
 import './styles/styles.scss';
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, HashRouter } from 'react-router-dom';
 import { Header } from './componentes/header/Header';
 import { Footer } from './componentes/footer/Footer';
 import { Productos } from './componentes/productos/Productos';
@@ -13,7 +13,7 @@ import { BtnWsp } from './componentes/wsp/BtnWsp';
 function App() {
   return (
 
-    <BrowserRouter>
+    <HashRouter>
 
       <Header />
 
@@ -30,7 +30,7 @@ function App() {
       <BtnWsp/>
       <Footer />
 
-    </BrowserRouter>
+    </HashRouter>
 
   );
 }

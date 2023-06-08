@@ -1,17 +1,11 @@
-
-
 .CardItem {
 
     justify-content: center;
-    flex-direction: row;
-    flex-flow: column wrap;
     height: max-content auto;
     width: 300px;
     border-radius: 50px;
     margin-right: 20px;
     margin-bottom: 50px;
-
-
 
 
     img {
@@ -38,7 +32,7 @@
         display: flex;
         width: 100%;
         justify-content: flex-start;
-        margin-left: 55px;  
+        margin-left: 55px;
         margin-top: 10px;
         font-family: 'augustus';
 
@@ -47,6 +41,7 @@
     a {
 
         text-decoration: none;
+
         .btn-vermas {
             display: flex;
             width: 100%;
@@ -58,15 +53,65 @@
             color: rgb(5, 110, 14);
             font-size: 1rem;
             font-family: 'augustus';
-            
-            &:hover{
+
+            &:hover {
                 display: block;
-                background-color: rgba(128, 255, 0, 0.158); 
-               
-           
+                background-color: rgba(128, 255, 0, 0.158);
+
+
             }
         }
     }
 
+
+}
+
+@media (max-width:400px) {
+
+    .CardItem {
+        p {
+            margin-left: 0px;
+
+        }
+    }
+
+}
+
+
+@media (max-width:300px) {
+
+    .CardItem {
+
+        a {
+            .btn-vermas {
+                margin-left: 0px;
+            }
+
+        }
+
+        #cardTitle {
+            justify-content: center;
+            margin-left: 0px; 
+            margin-top: 0px; 
+           
+            
+        }
+
+        p {
+            display: flex;
+            width: 100%;
+            justify-content: flex-start;
+            margin-left: 55px;
+            margin-top: 10px;
+            font-family: "augustus";
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            margin-left: 0px;
+
+
+        }
+
+    }
 
 }

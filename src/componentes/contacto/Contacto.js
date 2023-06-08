@@ -5,8 +5,8 @@ export const Contacto = () => {
 
     return (
 
-        <div>
-            <h1>Esta es la pagina de Contacto</h1>
+        <div className="containerContacto">
+            <img className="imgContacto" src="img\imgContacto.png"></img>
         </div>
     )
 

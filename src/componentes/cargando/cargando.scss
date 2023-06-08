@@ -56,3 +56,10 @@
         transform: rotate(360deg);
     }
 }
+
+
+@media (max-width: 768px){
+    .loader-section{
+        display: none;
+    }
+}
