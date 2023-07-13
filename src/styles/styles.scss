@@ -1,3 +1,4 @@
+@import '~bootstrap/scss/bootstrap';
 @import './global.scss';
 @import '../componentes/header/logo.scss';
 @import '../componentes/header/header.scss';
@@ -14,4 +15,5 @@
 @import '../componentes/productos/listadoProd.scss';
 @import '../componentes/productos/viewItem.scss';
 @import '../componentes/wsp/BtnWsp.scss';
-@import '../componentes/contacto/contacto.scss'
+@import '../componentes/contacto/contacto.scss';
+@import '../componentes/productos/cartWidget.scss'

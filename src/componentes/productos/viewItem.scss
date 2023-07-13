@@ -1,90 +1,117 @@
 .containerView {
 
+
     display: flex;
     width: 100%;
     border-top: 1px solid;
     border-color: chartreuse;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 
-    .tittleImage {
 
 
-        h3 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 2rem;
-            margin-bottom: 25px;
-            margin-top: 10px;
-            border-color: $c1;
-            font-family: 'augustus';
 
-        }
 
-        img {
-            width: 500px;
-            height: 400px;
-            border-radius: 50px;
-            margin-left: 50px;
-        }
-    }
-
-    .description {
+    h3 {
         display: flex;
-        width: 80%;
-        flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        margin-left: 100px;
-        margin-right: 100px;
+        font-size: 2rem;
+        margin-bottom: 25px;
+        margin-top: 10px;
+        border-color: $c1;
+        font-family: 'augustus';
 
-
-        h4 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 25%;
-            height: 50px;
-            font-size: 2rem;
-            margin-bottom: 25px;
-            border-bottom: solid 3px;
-            border-color: $c1;
-
-        }
-
-        p {
-            display: flex;
-            text-align: justify;
-            width: 100%;
-            width: fit-content;
-            font-size: 1.25rem;
-            font-family: 'cherry';
-
-
-        }
-
-        .btn-whatsapp {
-            display: flex;
-            width: 50%;
-            justify-content: center;
-            background-color: rgba(128, 255, 0, 0.295);
-            border: none;
-            border-radius: 5px;
-            margin-left: 25px;
-            margin-top: 50px;
-            color: rgb(5, 110, 14);
-            font-size: 1rem;
-            font-family: 'augustus';
-
-            &:hover {
-                display: block;
-                background-color: rgba(128, 255, 0, 0.158);
-            }
-
-
-
-        }
     }
 
+    img {
+        width: 500px;
+        height: 400px;
+        border-radius: 50px;
+        margin-left: 50px;
+    }
+}
+
+.description {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+    h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        height: 50px;
+        font-size: 2rem;
+        margin-bottom: 25px;
+        border-bottom: solid 3px;
+        border-color: $c1;
+
+    }
+
+    p {
+        display: flex;
+        text-align: justify;
+        width: 100%;
+        width: fit-content;
+        font-size: 1.25rem;
+        font-family: 'cherry';
+
+
+    }
+
+
+}
+
+
+
+.btnCtrlCant {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+
+    .btnSumar {
+        border: 0px;
+        border-radius: 10px;
+        background-color: rgb(139, 90, 245);
+        margin-right: 15px;
+
+        &:hover{
+            border-color: rgb(139, 90, 245);
+            background-color: rgb(216, 208, 234);
+    
+            }
+            &:focus{
+                background-color: green;
+            }
+        
+    }
+
+    .btnRestar {
+        border: 0px;
+        border-radius: 10px;
+        background-color: rgb(139, 90, 245);
+        margin-left: 15px;
+
+        &:hover{
+        border-color: rgb(139, 90, 245);
+        background-color: rgb(216, 208, 234);
+
+        }
+        &:focus{
+            background-color: red;
+        }
+        
+    }
 }
 
 
@@ -104,7 +131,7 @@
 
 
         .tittleImage img {
-            
+
             margin-left: 0px;
         }
 
@@ -121,6 +148,7 @@
         }
     }
 }
+
 /*
 @media (max-width: 768px) {
     .containerView {
@@ -156,27 +184,25 @@
 
 @media (max-width: 500px) {
     .containerView {
-       
-        .tittleImage img {
-            width: 350px;
+
+        .tittleImage {
+            padding-left: 10px;
+            padding-right: 10px;
+
+            img {
+                width: 100%;
+            }
         }
+
 
     }
 }
 
-@media (max-width: 400px) {
-    .containerView {
-       
-        .tittleImage img {
-            width: 300px;
-        }
 
-    }
-}
 
 @media (max-width: 350px) {
     .containerView {
-       
+
         .tittleImage img {
             width: 250px;
             height: fit-content;

@@ -1,4 +1,5 @@
 .listadoProd{
+    /*
     display: flex;
     flex-flow: row wrap;
     flex-direction: row;
@@ -9,6 +10,21 @@
     padding: 50px;
     border-top: solid 0.5px;
     border-bottom: solid 0.5px;
-    border-color: chartreuse;
+    border-color: chartreuse;*/
+
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    border-right: 0px; 
+    border-color: #7fff00;
+    border-width: .5px medium;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    height: -webkit-max-content;
+    height: max-content;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding: 50px;
+    
 }
 

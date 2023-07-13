@@ -19,9 +19,9 @@ export const Redes = () => {
 
         <div className="redes" >
             <h3>Nuestras redes</h3>
-            <img className="imgIg" src="img\instagram.png" onClick={handleIg} />
-            <img className="imgWsp" src="img\whatsapp.png" onClick={handleWsp} />
-            <img className="imgFb" src="img\facebook.png" onClick={handleFb} />
+            <img className="imgIg" src="img\instagram.png" alt="instagram" onClick={handleIg} />
+            <img className="imgWsp" src="img\whatsapp.png" alt="whatsapp" onClick={handleWsp} />
+            <img className="imgFb" src="img\facebook.png" alt="facebook" onClick={handleFb} />
 
 
         </div>

@@ -7,6 +7,13 @@
     -webkit-box-shadow: -1px 11px 15px 5px rgba(130, 56, 255, 0.56);
     box-shadow: -1px 11px 15px 5px rgba(130, 56, 255, 0.56);
     
+
+    .cartNav{
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: flex-end;
+    }
     
 }
 

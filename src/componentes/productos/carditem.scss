@@ -21,8 +21,8 @@
     #cardTitle {
         display: flex;
         width: 100%;
-        justify-content: flex-start;
-        margin-left: 55px;
+        justify-content: center;
+        margin-bottom: 20px;
         margin-top: 10px;
         font-family: 'augustus';
         font-weight: 400;
@@ -31,8 +31,7 @@
     p {
         display: flex;
         width: 100%;
-        justify-content: flex-start;
-        margin-left: 55px;
+        justify-content: space-evenly;
         margin-top: 10px;
         font-family: 'augustus';
 

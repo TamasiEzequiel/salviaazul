@@ -20,12 +20,11 @@ export const Nav = () => {
                     </li>
                     <li className="li-desp" ><Link to='/contacto'>CONTACTO</Link></li>
                 </ul>
-
-
                
             </nav>
-
+           
         </div>
+       
     )
 
     /* COLOCAR LOS SIGUIENTES COMPONENTES
