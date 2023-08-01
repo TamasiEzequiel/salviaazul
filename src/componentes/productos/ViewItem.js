@@ -19,7 +19,7 @@ export const ViewItem = ({id, precio, stock, nombre, img, categoria,descrip }) =
 
         if (!isInCart(id)) {
             const addItem = {
-                id, nombre, precio, stock, cantidad
+                id, nombre, precio, stock, cantidad,img
             }
             //handle para agregar uno con las propiedades del objeto
 
@@ -52,7 +52,7 @@ export const ViewItem = ({id, precio, stock, nombre, img, categoria,descrip }) =
                     :
                     <>
                         <ItemCount //el componente rederizado que tiene las funciones de sumar y restar cantidades
-                            max={stock}// el max del componente se reemplaza x stock
+                            //max={stock}// el max del componente se reemplaza x stock
                             counter={cantidad} //el compenente tiene un estado llamado counter, se reemplaza por cantidad
                             setCounter={setCantidad} // el counter se reemplaza con el setteo de la cantidad
                         />

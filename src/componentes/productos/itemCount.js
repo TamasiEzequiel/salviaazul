@@ -4,7 +4,7 @@ export const ItemCount = ({ max, min = 0, counter, setCounter}) => { // +  Y - P
     
 
     const handleSumar = (e) => {
-        counter < max && setCounter(counter + 1)
+        /*counter < max && */setCounter(counter + 1) // utilizar el counter max si disponemos de stock fijo
        
     }
     const handleRestar = (e) => {

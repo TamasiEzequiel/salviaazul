@@ -37,6 +37,7 @@ export const CartProvider = ({children}) => { //recibe por props los children (t
         <CartContext.Provider value={
             {//coloco las fn relacionadas al cart como referencia
               cart,
+              setCart,
               agregarAlCarrito,
               isInCart,
               cantidadCart,

@@ -1,0 +1,136 @@
+.viewCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+
+
+    .cardCart {
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 100px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #8773A4;
+
+        #imgCart {
+            width: 150px;
+            height: 120px;
+            border-radius: 25px;
+            margin-right: 50px;
+        }
+
+        .tittleBox {
+
+            #cardCartTittle {}
+        }
+
+
+    }
+
+
+}
+
+.btnSumar {
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(139, 90, 245);
+    margin-left: 15px;
+
+    &:hover {
+        border-color: rgb(139, 90, 245);
+        background-color: rgb(216, 208, 234);
+
+    }
+
+    &:focus {
+        background-color: green;
+    }
+
+}
+
+.btnRestar {
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(139, 90, 245);
+    margin-left: 15px;
+
+    &:hover {
+        border-color: rgb(139, 90, 245);
+        background-color: rgb(216, 208, 234);
+
+    }
+
+    &:focus {
+        background-color: red;
+    }
+
+}
+
+.btnDelete {
+    border: red solid 1px;
+    border-radius: 50px;
+    background-color: azure;
+    width: 90px;
+    height: 40px;
+
+    &:hover {
+        background-color: red;
+        color: white;
+    }
+}
+
+.vaciarCart {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    .btnVCart {
+        
+        border: rgb(121, 8, 8) solid 1px;
+        border-radius: 50px;
+        background-color: azure;
+        width: 150px;
+        height: 40px;
+
+        &:hover {
+            background-color: rgb(121, 8, 8);
+            color: white;
+        }
+    }
+
+
+    .btnTcompra {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: rgb(7, 255, 69) solid 1px;
+        border-radius: 50px;
+        background-color: rgb(7, 255, 69);
+        width: 150px;
+        height: 50px;
+        margin-top: 50px;
+        text-decoration: none;
+            color: black;
+
+        &:hover {
+            background-color: rgb(7, 255, 69);
+            position: relative;
+            width: 200px;
+            transition: 2s;
+            color: white;
+        }
+
+     
+            
+        
+    }
+
+}

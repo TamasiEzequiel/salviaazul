@@ -47,7 +47,7 @@ export const SliderHome = () => {
             {
               imgData.map((item) => {
                 return <li key={item.id}>
-                  <img src={item.imgUrl} width={1500} height={700} />
+                  <img className="bannerImg" src={item.imgUrl}  />
                 </li>
               })
             }
