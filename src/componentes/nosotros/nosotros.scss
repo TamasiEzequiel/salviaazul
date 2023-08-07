@@ -1,6 +1,7 @@
 .nosotros {
     width: 100%;
     max-height: auto;
+   
 
     h1 {
         display: flex;
@@ -96,6 +97,39 @@
 
 }
 
+@media (max-width: 900px) {
+
+
+    .nosotros {
+        height: 2500px;
+        .ubicacion {
+            .containerMapa {
+                flex-direction: column-reverse;
+                margin-top: 50px;
+                align-items: center;
+                .mapa {
+                    display: flex;
+                    justify-content: center;
+                }
+
+
+                p {
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
 @media (max-width: 800px) {
 
 
@@ -128,13 +162,28 @@
         flex-direction: column;
 
     }
+
+    .containerMapa {
+        .mapa {
+            display: flex;
+            justify-content: center;
+            margin-right: 0px;
+            height: 800px auto;
+            width: 80%;
+        }
+
+
+        p {
+            display: none;
+        }
+    }
 }
 
 @media (max-width: 600px) {
 
     .nosotros {
         width: 100%;
-        max-height: auto;
+        height: 1800px;
 
         p {
             padding-right: 25px;
@@ -157,20 +206,24 @@
         }
     }
 
+
+
 }
 
+
+@media (max-width: 500px) {
+
+    .nosotros {
+      
+        height: 1900px;
+    }
+
+}
 @media (max-width: 450px) {
 
     .nosotros {
-
+        height: 2000px;
         .ubicacion {
-
-            .containerMapa {
-                .mapa {
-                    width: 99%;
-                    height: 800px auto;
-                }
-            }
 
             h3 {
                 text-align: center;
@@ -184,6 +237,15 @@
                 font-size: 2rem;
             }
         }
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .nosotros {
+        height: 2300px;
+       
     }
 
 }

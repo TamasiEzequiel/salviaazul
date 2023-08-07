@@ -12,7 +12,8 @@ export const SliderHome = () => {
 
     if (imgNode) {
       imgNode.scrollIntoView({
-        behavior: "smooth"
+        //behavior: "alternate"
+       
       });
     }
 

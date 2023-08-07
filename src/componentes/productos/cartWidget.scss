@@ -18,3 +18,28 @@
     color: rgb(255, 255, 255);
    }
 }
+
+@media (max-width: 900px) {
+    .cartWidget{
+        left: 85%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .cartWidget{
+        left: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    .cartWidget{
+        left: 75%;
+    }
+}
+
+@media (max-width: 350px) {
+    .cartWidget{
+        left: 70%;
+    }
+}
