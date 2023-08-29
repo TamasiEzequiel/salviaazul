@@ -11,7 +11,7 @@ export const Logo = () => {
            
             <Link to='/'>
                
-                <img className="imgLogo" src="..\img\logo.png" />
+                <img className="imgLogo" src="img\logo.png" />
                 
             </Link>
 
