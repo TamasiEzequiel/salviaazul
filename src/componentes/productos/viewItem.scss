@@ -33,7 +33,7 @@
         margin-top: 10px;
         border-color: $c1;
         font-family: 'augustus';
-
+        
     }
 
     .btnAgregar {
@@ -122,44 +122,29 @@
 
 .btnCtrlCant {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
+    justify-content: space-evenly;
+    width: 190px;
+    height: 50px;
     margin-bottom: 25px;
+    background-color: #FAC2FB;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0px 3px 17px 5px rgba(204, 189, 189, 0.61); 
+    box-shadow: inset 0px 3px 17px 5px rgba(190, 185, 185, 0.61);
+
+
+    span{
+        font-size: 40px;
+    }
 
     .btnSumar {
-        border: 0px;
-        border-radius: 10px;
-        background-color: rgb(139, 90, 245);
-        margin-right: 15px;
-
-        &:hover {
-            border-color: rgb(139, 90, 245);
-            background-color: rgb(216, 208, 234);
-
-        }
-
-        &:focus {
-            background-color: green;
-        }
-
+        background-color: #fac2fb00;
+        font-size: 40px;
+    
     }
 
     .btnRestar {
-        border: 0px;
-        border-radius: 10px;
-        background-color: rgb(139, 90, 245);
-        margin-left: 15px;
-
-        &:hover {
-            border-color: rgb(139, 90, 245);
-            background-color: rgb(216, 208, 234);
-
-        }
-
-        &:focus {
-            background-color: red;
-        }
+        background-color: #fac2fb00;
+        font-size: 40px;    
 
     }
 

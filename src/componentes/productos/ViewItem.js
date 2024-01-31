@@ -32,13 +32,10 @@ export const ViewItem = ({id, precio, stock, nombre, img, categoria,descrip }) =
 
         <div className="containerView">
 
-
-
             <div className="tittleImage">
                 <h3>{nombre}</h3>
                 <img src={img} />
             </div>
-
 
             <div className="description">
                 <h4>DESCRIPCION</h4>
